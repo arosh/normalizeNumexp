@@ -45,3 +45,6 @@ std::string get_dictionary_dirpath(){
 
 	fout = open("./src/dictionary_dirpath.cpp", "w")
 	fout.write(source)
+	fout.close()
+
+# vim:filetype=python
